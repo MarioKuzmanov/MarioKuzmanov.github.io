@@ -7,17 +7,14 @@
 
 # Site settings
 title: Mario Kuzmanov
-
 subtitle: > # ignore newlines until "description:"
-    Personal webpage
+    Personal webpage 
 
 description: > # ignore newlines until "baseurl:"
-    This is the course web page for 
-    Data Structures and Algorithms for Computational Linguistics III
-    taught in the linguistic department (SfS), University of Tübingen.
-
+    This will be my personal webpage.
+baseurl: ""
 url: "https://MarioKuzmanov.github.io"
-github_username:  MarioKuzmanov
+github_username: MarioKuzmanov
 encoding: utf-8
 future: true
 
