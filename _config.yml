@@ -14,7 +14,6 @@ description: > # ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://mariokuzmanov.github.io"
 github_username: MarioKuzmanov
-theme: jekyll-theme-minimal
 encoding: utf-8
 future: true
 
