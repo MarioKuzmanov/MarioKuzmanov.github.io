@@ -1,0 +1,38 @@
+body{
+  background-color: lightblue;
+}
+
+#title{
+  text-align: center;
+  font-family: "Arial Black", fantasy;
+  font-size: 50px;
+}
+
+#profile{
+  border-radius: 50%;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  display: inline;
+  margin-left: 50px;
+  border-right: 5px solid darkblue;
+}
+
+li a {
+  text-align: center;
+  font-size: 30px;
+  padding: 14px 16px;
+  font-family: "Arial Black", sans-serif;
+}
+li a:hover{
+  background-color: lightblue;
+}
