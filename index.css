@@ -52,3 +52,10 @@ li a:hover {
     text-align: left;
     display: block;
 }
+#footer{
+    text-align: center;
+    font-family: Algerian, sans-serif;
+    display: block;
+    
+    background-color: lavender;
+}
