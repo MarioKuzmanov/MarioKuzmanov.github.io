@@ -44,6 +44,7 @@ header {
     border-radius: 50%;
     float: left;
     margin: 100px auto 50px;
+    width: 100%;
 }
 
 .buttons {
