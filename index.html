@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Mario Kuzmanov - Webpage</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
 <div class="introduction">
-    <h1 id="title"><a href="#home">Mario Kuzmanov</a></h1>
+    <header>
+    <h1 id="title">Mario Kuzmanov</h1>
+    </header>
+    <img id="profile_photo" src="images/cv_photo.jpeg" alt="profile photo"/>
 
-    <img id="profile" src="images/cv_photo.jpeg" alt="profile photo"/>
+    <h2 id="bio"> Computational Linguistics @ University of Tübingen</h2>
 
 </div>
 
-<ul>
-    <li><a href="#contact"> Contact</a></li>
-    <li><a href="#education"> Education </a></li>
-    <li><a href="#experience"> Experience </a></li>
-    <li><a href="#projects"> Projects </a></li>
-    <li><a href="#skills"> Skills </a></li>
-</ul>
+<main>
 
-<section>
-<h2 id="about">About me</h2>
+    <button id="contact_me"> Contact Me </button>
+    <button id="work_education"> Work/Education </button>
+    <button id="projects"> Projects </button>
+    <button id="skills"> Skills </button>
 
-<p id="text_about">
+
+<textarea id="text_about" name="text_about" rows="20" cols="100">
     I am currently in my 5th semester in ISCL (International Studies of Computational Linguistics) at the University
     of Tubingen.<br> After completing my Bachelor’s degree, I plan to commence my Master’s in ISCL the following
     winter of 2025. <br>Throughout my academic journey, I have gained extensive experience in implementing (Deep)
@@ -36,12 +39,12 @@
     I have most experience with <b>Python</b>, <b>Java</b>, AI in the context of <b>NLP</b>, <b>linguistics</b>, <b>competitive programming.</b> <br>
     My work so far spans within various areas of technical support and automation, as well as speech/text processing, sequence labeling, machine translation for low-resourced
     languages, information retrieval, and language modeling.
+</textarea>
 
-</p>
-
-</section>
+</main>
 
 
-<footer id="footer">Mario Kuzmanov, 2024</footer>
+<footer id="footer_name">Mario Kuzmanov, 2024</footer>
+
 </body>
 </html>
