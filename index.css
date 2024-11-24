@@ -65,6 +65,7 @@ button#contact_me:hover {
     color: black;
     background-color: lightblue;
     font-size: 30px;
+    width: 20%;
 }
 
 button#work_education:hover {
@@ -77,6 +78,7 @@ button#work_education:hover {
     color: black;
     background-color: lightblue;
     font-size: 30px;
+    width: 20%;
 }
 
 button#projects:hover {
@@ -89,6 +91,7 @@ button#projects:hover {
     color: black;
     background-color: lightblue;
     font-size: 30px;
+    width: 20%;
 }
 
 button#skills:hover {
@@ -101,5 +104,6 @@ button#skills:hover {
     color: black;
     background-color: lightblue;
     font-size: 30px;
+    width: 20%;
 }
 
