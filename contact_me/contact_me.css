@@ -1,12 +1,59 @@
 html {
-    background-color: red;
-}
-body {
     background-color: cadetblue;
+    display: table;
+    margin: auto;
 }
 
-#header {
+body {
+    background-color: white;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+}
+
+#contact {
     margin-top: 0;
-    background-color: pink;
-    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    text-shadow: 5px 10px 20px darkblue;
+}
+
+#linkedin_photo {
+    height: 20px;
+}
+
+#github_photo {
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    column-count: 2;
+}
+
+li {
+    margin-bottom: 50px;
+}
+
+#github {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#go_back {
+    font-size: 20px;
+    position: relative;
+    bottom: -30%;
+}
+
+#work_education {
+    font-size: 20px;
+    position: relative;
+    bottom: -30%;
+    float: right;
 }
