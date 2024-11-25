@@ -6,7 +6,7 @@
 
 html {
     display: table;
-    background-color: #1C448E;
+    background-color: cadetblue;
     margin: auto;
     font-family: "Arial Black", serif;
     width: 75%;
@@ -19,8 +19,8 @@ body {
     background-color: #F4FDFF;
     display: table-cell;
 
-    width: 75%;
-    max-width: 75%;
+    width: 70%;
+    max-width: 70%;
     height: 100%;
 
 }
@@ -35,7 +35,8 @@ header {
     text-align: center;
     font-size: 50px;
     background-color: lightblue;
-    color: blue;
+    color: white;
+    text-shadow: 5px 10px 20px darkblue;
 
 }
 
@@ -69,9 +70,11 @@ button#contact_me:hover {
 #contact_me {
     margin-left: 50px;
     border-radius: 15%;
+    border: 10px solid lightblue;
     color: black;
     background-color: lightblue;
-    font-size: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 button#work_education:hover {
@@ -81,9 +84,12 @@ button#work_education:hover {
 #work_education {
     margin-left: 50px;
     border-radius: 15%;
+    border: 10px solid lightblue;
     color: black;
     background-color: lightblue;
-    font-size: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+
 }
 
 button#projects:hover {
@@ -93,9 +99,11 @@ button#projects:hover {
 #projects {
     margin-left: 50px;
     border-radius: 15%;
+    border: 10px solid lightblue;
     color: black;
     background-color: lightblue;
-    font-size: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 button#skills:hover {
@@ -105,15 +113,18 @@ button#skills:hover {
 #skills {
     margin-left: 50px;
     border-radius: 15%;
+    border: 10px solid lightblue;
     color: #1A1110;
     background-color: lightblue;
-    font-size: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 #about_me {
-    font-size: 50px;
+    color: white;
+    font-size: 30px;
     text-align: center;
-    text-shadow: 5px 5px 5px darkslateblue;
+    text-shadow: 5px 5px 20px black;
 }
 
 .introduction {
@@ -125,7 +136,7 @@ button#skills:hover {
 
 .introduction #semester {
     color: grey;
-    text-shadow: 5px 5px lemonchiffon;
+    text-shadow: 2px 2px 5px darkgrey;
     margin-bottom: 20px;
 }
 
@@ -137,25 +148,25 @@ button#skills:hover {
 
 .introduction #neural_nn {
     color: lightblue;
-    text-shadow: 5px 5px wheat;
+    text-shadow: 2px 2px 5px cadetblue;
     margin-bottom: 20px;
 }
 
 .introduction #nlp {
     color: orange;
-    text-shadow: 5px 5px brown;
+    text-shadow: 2px 2px 2px brown;
     margin-bottom: 20px;
 }
 
 .introduction #dsa {
     color: rosybrown;
-    text-shadow: 5px 5px wheat;
+    text-shadow: 2px 2px 10px mistyrose;
     margin-bottom: 20px;
 }
 
 .introduction #gui {
     color: pink;
-    text-shadow: 5px 5px papayawhip;
+    text-shadow: 2px 2px 5px hotpink;
     margin-bottom: 20px;
 }
 

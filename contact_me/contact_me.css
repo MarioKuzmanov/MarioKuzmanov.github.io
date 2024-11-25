@@ -1,0 +1,12 @@
+html {
+    background-color: red;
+}
+body {
+    background-color: cadetblue;
+}
+
+#header {
+    margin-top: 0;
+    background-color: pink;
+    font-size: 50px;
+}
