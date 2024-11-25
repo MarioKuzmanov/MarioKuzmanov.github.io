@@ -33,7 +33,7 @@ header {
 
 #bio {
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 30px;
 }
@@ -42,13 +42,13 @@ header {
 #profile_photo {
     border-radius: 50%;
     float: left;
-    margin: 100px auto 50px;
+    margin: 100px 50px 50px auto;
 }
 
 .buttons {
-    margin-top: 100px;
+    margin-top: 200px;
     position: relative;
-    left: 5%;
+    left: 30%;
     margin-bottom: 100px;
 }
 
@@ -95,8 +95,57 @@ button#skills:hover {
 #skills {
     margin-left: 50px;
     border-radius: 15%;
-    color: black;
+    color: #1A1110;
     background-color: lightblue;
     font-size: 30px;
+}
+
+#about_me {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px darkslateblue;
+}
+
+.introduction {
+    list-style-type: none;
+    font-size: 30px;
+    column-count: 3;
+    column-gap: 100px;
+}
+
+.introduction #semester {
+    color: grey;
+    text-shadow: 5px 5px lemonchiffon;
+    margin-bottom: 20px;
+}
+
+.introduction #data {
+    color: black;
+    text-shadow: 3px 3px gray;
+    margin-bottom: 20px;
+}
+
+.introduction #neural_nn {
+    color: lightblue;
+    text-shadow: 5px 5px wheat;
+    margin-bottom: 20px;
+}
+
+.introduction #nlp {
+    color: orange;
+    text-shadow: 5px 5px brown;
+    margin-bottom: 20px;
+}
+
+.introduction #dsa {
+    color: rosybrown;
+    text-shadow: 5px 5px wheat;
+    margin-bottom: 20px;
+}
+
+.introduction #gui {
+    color: pink;
+    text-shadow: 5px 5px papayawhip;
+    margin-bottom: 20px;
 }
 
