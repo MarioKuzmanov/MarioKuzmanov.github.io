@@ -5,7 +5,7 @@ function onClick() {
     }
 
     document.getElementById("work_education").onclick = function () {
-        location.href = "https://www.youtube.com/";
+        location.href = "work_education/work_education.html";
     }
 
     document.getElementById("projects").onclick = function () {

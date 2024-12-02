@@ -41,19 +41,44 @@ li {
 }
 
 #github {
-    margin-top: 50px;
+    float: right;
     text-align: center;
 }
 
 #go_back {
     font-size: 20px;
     position: relative;
-    bottom: -30%;
+    bottom: -10%;
 }
 
 #work_education {
     font-size: 20px;
     position: relative;
-    bottom: -30%;
+    bottom: -10%;
     float: right;
+}
+
+#emails {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px darkblue;
+}
+
+#address {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px darkblue;
+}
+
+#mobile {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px darkblue;
+}
+
+#linkedin {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px darkblue;
+}
+
+#github_profile {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px darkblue;
 }
