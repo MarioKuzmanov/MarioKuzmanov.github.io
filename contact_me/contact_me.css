@@ -31,13 +31,14 @@ body {
     height: 30px;
 }
 
-ul {
+#outer {
     list-style-type: none;
     column-count: 2;
 }
 
 li {
-    margin-bottom: 50px;
+    margin-bottom: 0;
+    padding: 15px;
 }
 
 #github {
@@ -54,7 +55,8 @@ li {
     text-shadow: 1px 1px 2px black;
 
 }
-#go_back:hover{
+
+#go_back:hover {
     background-color: lightblue;
 }
 
@@ -67,7 +69,8 @@ li {
     border-radius: 10%;
     text-shadow: 1px 1px 2px black;
 }
-#work_education:hover{
+
+#work_education:hover {
     background-color: lightblue;
 }
 
@@ -76,10 +79,16 @@ li {
     text-shadow: 2px 2px 5px darkblue;
 }
 
+#inner {
+    list-style: circle;
+    line-height: 20px;
+}
+
 #address {
     font-size: 30px;
     text-shadow: 2px 2px 5px darkblue;
 }
+
 p {
     font-size: 20px;
 }
@@ -95,6 +104,15 @@ p {
 }
 
 #github_profile {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px darkblue;
+}
+
+li #leetcode #leetcode_photo {
+    height: 30px;
+}
+
+li #leetcode {
     font-size: 30px;
     text-shadow: 2px 2px 5px darkblue;
 }

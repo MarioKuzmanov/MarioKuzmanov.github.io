@@ -1,0 +1,49 @@
+#about_me {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 20px black;
+}
+
+.introduction {
+    list-style-type: none;
+    font-size: 30px;
+    column-count: 3;
+    column-gap: 100px;
+}
+
+.introduction #semester {
+    color: grey;
+    text-shadow: 2px 2px 5px darkgrey;
+    margin-bottom: 20px;
+}
+
+.introduction #data {
+    color: black;
+    text-shadow: 3px 3px gray;
+    margin-bottom: 20px;
+}
+
+.introduction #neural_nn {
+    color: lightblue;
+    text-shadow: 2px 2px 5px cadetblue;
+    margin-bottom: 20px;
+}
+
+.introduction #nlp {
+    color: orange;
+    text-shadow: 2px 2px 2px brown;
+    margin-bottom: 20px;
+}
+
+.introduction #dsa {
+    color: rosybrown;
+    text-shadow: 2px 2px 10px mistyrose;
+    margin-bottom: 20px;
+}
+
+.introduction #gui {
+    color: pink;
+    text-shadow: 2px 2px 5px hotpink;
+    margin-bottom: 20px;
+}

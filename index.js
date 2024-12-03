@@ -13,7 +13,7 @@ function onClick() {
     }
 
     document.getElementById("skills").onclick = function () {
-        location.href = "https://www.youtube.com/";
+        location.href = "skills/skills.html";
     }
 }
 
