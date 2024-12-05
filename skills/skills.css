@@ -1,49 +1,94 @@
-#about_me {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 5px 5px 20px black;
+html {
+    display: table;
+    margin: auto;
+    background-color: lightblue;
 }
 
-.introduction {
+body {
+    display: table-cell;
+    margin: auto;
+}
+
+#all_skills {
+    column-count: 2;
+}
+
+li {
+    font-size: 35px;
+}
+
+#about_me {
+
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 20px white;
+}
+
+#all_skills {
+    list-style-type: none;
+}
+
+h3 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 20px white;
+}
+
+
+.languages {
     list-style-type: none;
     font-size: 30px;
-    column-count: 3;
-    column-gap: 100px;
+    column-count: 2;
+    line-height: 100px;
+    text-align: left;
+}
+.languages #python {
+    color: green;
+    text-shadow: 10px 5px 20px greenyellow;
 }
 
-.introduction #semester {
-    color: grey;
-    text-shadow: 2px 2px 5px darkgrey;
-    margin-bottom: 20px;
-}
-
-.introduction #data {
-    color: black;
-    text-shadow: 3px 3px gray;
-    margin-bottom: 20px;
-}
-
-.introduction #neural_nn {
-    color: lightblue;
-    text-shadow: 2px 2px 5px cadetblue;
-    margin-bottom: 20px;
-}
-
-.introduction #nlp {
+.languages #java {
     color: orange;
-    text-shadow: 2px 2px 2px brown;
-    margin-bottom: 20px;
+    text-shadow: 10px 5px 20px darkorange;
+}
+.languages #r {
+    color: blue;
+    text-shadow: 10px 5px 20px darkblue;
+}
+.languages #html {
+    color: darkgoldenrod;
+    text-shadow: 10px 5px 20px yellow;
+}
+.languages #css {
+    color: mediumpurple;
+    text-shadow: 10px 5px 20px purple;
+}
+.languages #js {
+    color: yellow;
+    text-shadow: 10px 5px 30px darkgoldenrod;
 }
 
-.introduction #dsa {
-    color: rosybrown;
-    text-shadow: 2px 2px 10px mistyrose;
-    margin-bottom: 20px;
+.languages #regex {
+    color: hotpink;
+    text-shadow: 10px 5px 30px palevioletred;
 }
 
-.introduction #gui {
-    color: pink;
-    text-shadow: 2px 2px 5px hotpink;
-    margin-bottom: 20px;
+.technologies {
+    list-style-type: none;
+    font-size: 30px;
+    column-count: 2;
+    line-height: 100px;
+    text-align: left;
 }
+
+.others {
+    list-style-type: none;
+    font-size: 30px;
+    column-count: 2;
+    line-height: 100px;
+    text-align: left;
+}
+
+
