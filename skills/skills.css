@@ -44,6 +44,7 @@ h3 {
     line-height: 100px;
     text-align: left;
 }
+
 .languages #python {
     color: green;
     text-shadow: 10px 5px 20px greenyellow;
@@ -53,18 +54,22 @@ h3 {
     color: orange;
     text-shadow: 10px 5px 20px darkorange;
 }
+
 .languages #r {
     color: blue;
     text-shadow: 10px 5px 20px darkblue;
 }
+
 .languages #html {
     color: darkgoldenrod;
     text-shadow: 10px 5px 20px yellow;
 }
+
 .languages #css {
     color: mediumpurple;
     text-shadow: 10px 5px 20px purple;
 }
+
 .languages #js {
     color: yellow;
     text-shadow: 10px 5px 30px darkgoldenrod;
@@ -82,6 +87,69 @@ h3 {
     line-height: 100px;
     text-align: left;
 }
+
+.technologies #hfst\/xfst {
+    color: gray;
+    text-shadow: 10px 5px 30px grey;
+}
+
+.technologies #streamlit {
+    color: red;
+    text-shadow: 10px 5px 30px #dc4646;
+}
+
+.technologies #tkinter {
+    color: #475fd2;
+    text-shadow: 10px 5px 30px #475fd2;
+}
+
+.technologies #pytorch {
+    color: rgba(173, 16, 16, 0.87);
+    text-shadow: 10px 5px 30px orangered;
+}
+
+.technologies #spacy {
+    color: blue;
+    text-shadow: 10px 5px 30px rgba(0, 196, 255, 0.76);
+}
+
+.technologies #pandas {
+    color: white;
+    text-shadow: 10px 5px 50px black;
+}
+
+.technologies #numpy {
+    background-color: darkblue;
+    border-radius: 80%;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px grey;
+}
+
+.technologies #sympy {
+    color: white;
+    background-color: darkblue;
+    border-radius: 80%;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
+.technologies #scipy {
+    background-color: darkblue;
+    border-radius: 80%;
+    text-align: center;
+    color: lightblue;
+    text-shadow: 1px 1px rgba(0, 196, 255, 0.76);
+}
+
+.technologies #scikit {
+    background-color: darkblue;
+    border-radius: 80%;
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 1px #6868d9;
+}
+
 
 .others {
     list-style-type: none;

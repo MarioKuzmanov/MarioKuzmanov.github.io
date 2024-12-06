@@ -9,7 +9,7 @@ function onClick() {
     }
 
     document.getElementById("projects").onclick = function () {
-        location.href = "https://www.youtube.com/";
+        location.href = "projects/projects.html";
     }
 
     document.getElementById("skills").onclick = function () {
