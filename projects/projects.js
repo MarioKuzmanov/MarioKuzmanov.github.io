@@ -4,6 +4,11 @@ function onLoad() {
             location.href = "../index.html";
         }
     })
+    document.getElementById("skills").addEventListener("click", function () {
+        document.getElementById("skills").onclick = function () {
+            location.href = "../skills/skills.html";
+        }
+    })
 
 }
 
