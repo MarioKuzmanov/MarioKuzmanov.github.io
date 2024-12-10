@@ -55,17 +55,18 @@ header {
     margin: 50px 20px 50px auto;
 }
 
+
 main p {
-    margin-left: 100px;
+    line-height: 30px;
+    text-indent: each-line;
     font-size: 20px;
     font-family: "Times New Roman", sans-serif;
 }
 
 .buttons {
+    text-align: center;
     margin-top: 100px;
     position: relative;
-    left: auto;
-    right: auto;
     margin-bottom: 100px;
 
 }
