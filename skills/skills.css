@@ -131,8 +131,20 @@ h3 {
 .technologies #sympy {
 
     border-radius: 80%;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #cc9d9d;
     text-align: center;
+}
+
+.technologies #gensim {
+    text-align: center;
+    color: darkblue;
+    text-shadow: 1px 2px white;
+}
+
+.technologies #nltk {
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 2px 2px lightcyan;
 }
 
 .technologies #scipy {
