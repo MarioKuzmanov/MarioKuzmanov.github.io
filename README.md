@@ -3,7 +3,7 @@
 <p float="left">
   <img src="images/cv_photo.jpeg" width="49%" />
   &nbsp;
-  <img style="height: 400px;" src="images/linkedin_background.jpg" width="49%" />
+  <img src="images/linkedin_background.jpg" width="49%" />
 </p>
 
 <h3> This repository contains my personal webpage available at <a href="https://mariokuzmanov.github.io">mariokuzmanov.github.io</a>  </h3>
