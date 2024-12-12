@@ -17,62 +17,150 @@
 <h1 id="title">Projects</h1>
 
 <ul id="first">
-    <li>Bigram LM: <a style="font-size: 20px" href="https://github.com/MarioKuzmanov/BigramLM">open project </a> <br>
+    <li style="">Bigram LM: <a style="font-size: 30px;text-shadow: 1px 1px darkblue"
+                               href="https://github.com/MarioKuzmanov/BigramLM">open project </a> <br>
 
         <img style="height:500px;width: 1000px; border: 10px solid cadetblue" src="../images/bigram_lm.png"
              alt="bigram_lm">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Bigram Language Model trained with Kneyser-Ney Smoothing for next word prediction and sentence
+            generation. <br>
+            2. You can see the training data, and calculate the perplexity (model surprisal) on the test data. <br>
+            3. You can sample from the model by generating sentences/text.
+        </p>
 
     </li>
-    <li>Vector Semantics: <a style="font-size: 20px" href="https://github.com/MarioKuzmanov/DistributionalModels">open
+    <li>Vector Semantics: <a style="font-size: 30px;text-shadow: 1px 1px darkblue"
+                             href="https://github.com/MarioKuzmanov/DistributionalModels">open
         project </a> <br>
         <img style="height:700px;width: 700px; border: 10px solid cadetblue" src="../images/vector_semantics.png"
              alt="distributional_models">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Implementation of two main types of distributional models <b>TF-IDF</b> and <b>PPMI</b>. <br>
+            2. Using the interface, you can provide the data, train the models and then make inference based on the
+            results. <br>
+            3. You can use <b>TF-IDF</b> to rank how similar are documents between each other based on their words'
+            distribution. <br>
+            4. On the other hand, <b>PPMI</b> is more common when you want to measure how similar are two words in a
+            document based on a certain context window.
+        </p>
+
     </li>
-    <li>Naive Bayes: <a style="font-size: 20px" href="https://github.com/MarioKuzmanov/NaiveBayes">open
+    <li>Naive Bayes: <a style="font-size: 30px" href="https://github.com/MarioKuzmanov/NaiveBayes">open
         project </a> <br>
         <img style="height:700px;width: 700px; border: 10px solid cadetblue" src="../images/naive_bayes.png"
              alt="distributional_models">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Using this app, you can test <b>3</b> different ML approaches to Text Classification. <br>
+            2. Use generative <b>Naive Bayes</b> to predict the sentiment of a short text. <br>
+            3. Use discriminative <b>Logistic Regression</b> for the same task. <br>
+            4. More modern single-layer <b>Feed-Forward Neural Network</b> , outperforming the rest.
+        </p>
     </li>
 </ul>
 
 
 <ul id="second">
 
-    <li>HMM: <a style="font-size: 20px" href="https://github.com/MarioKuzmanov/HMM">open project </a> <br>
+    <li>HMM: <a style="font-size: 30px" href="https://github.com/MarioKuzmanov/HMM">open project </a> <br>
         <img style="height:500px;width: 1000px; border: 10px solid cadetblue" src="../images/hmm.png"
-             alt="hmm_posTagging"></li>
+             alt="hmm_posTagging">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Given two valid .conllu files, you can perform <b>Sequence Classification</b> with a high
+            degree of accuracy. <br>
+            2. The <b>Baseline Model</b> is based on the assumption that the correct tag is this, with highest frequency
+            in the train data. <br>
+            3. <b>A Hidden Markov Model</b> is trained on the words and POS Tags distribution , and then using
+            Viterbi decoding the most probable sequence of tags is predicted, <br> outperforming our Baseline.
+        </p>
+    </li>
     <li>Morphological Analyzer <a style="font-size: 20px"
                                   href="https://github.com/MarioKuzmanov/Neural-Morpho-Analyzer">open
         project </a> <br>
         <img style="height:700px;width: 500px; border: 10px solid cadetblue" src="../images/morphological_analyzer.png"
              alt="neural_morpho_analyzer">
+
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. <b>Encoder-Decoder</b> architecture based on <b>GRUs</b> for generating words in Tatar, given lemma and
+            inflections. <br>
+            2. Command-line interface, with a possibility of a pretty-print, that is, what the model has generated. <br>
+            3. Evaluation based on the <b>TER score</b> and the minimum edit distance between the target and predicted
+            words.
+        </p>
     </li>
-    <li>Graph-Based Parser: <a style="font-size: 20px" href="https://github.com/MarioKuzmanov/MST-Dependency-Parser">open
+    <li>Graph-Based Parser: <a style="font-size: 30px" href="https://github.com/MarioKuzmanov/MST-Dependency-Parser">open
         project </a><br>
         <img style="height:300px;width: 1400px; border: 10px solid cadetblue" src="../images/graph-based-parser.png"
              alt="graph_based_parser">
+
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Command-line interface. <br>
+            2. Graded university assignment, in <b>top 3</b> of the best scores on average for all datasets in the
+            latest UD release. <br>
+            3. <b>High efficiency</b>, simple and fast count model based on linguistic knowledge. <br>
+            4. Uses <b>Maximum Spanning Tree</b> algorithm to get the best possible parse. The sentences are represented
+            as <b>directed graphs</b>. <br>
+            5. Evaluation is done from computing the <b>UAS</b> (correct heads) and <b>LAS</b> (correct heads and
+            labels).
+        </p>
     </li>
 </ul>
 
 <ul id="third">
-    <li>Neural Graph-Based Parser: <a style="font-size: 20px"
+    <li>Neural Graph-Based Parser: <a style="font-size: 30px"
                                       href="https://github.com/MarioKuzmanov/Neural-Dependency-Parser">open project </a>
         <br>
         <img style="height:100px;width: 500px; border: 10px solid cadetblue" src="../images/neural_parser1.png"
              alt="improved_parser">
         <img style="height:700px;width: 1000px; border: 10px solid cadetblue" src="../images/neural_parser2.png"
              alt="parse_tree">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Improves on the simple count based model. <br>
+            2. Requires much more resources to train. Trained on a <b>T4 GPU</b> for a couple of hours. <br>
+            3. Specifically tuned for the <b>Bulgarian-BTB dataset</b>. <br>
+            4. At the lowest level, I freeze with <b> static Word2Vec embeddings </b> which are then learned. <br>
+            5. Each word, tag + morphological features embeddings serve as input to a <b>uni-directional LSTM</b>. <br>
+            6. These features are the input to <b>3-layered Bi-LSTM units</b>, which then are input to <b>4 MLP
+            classifiers</b>. <br>
+            7. Final <b>adjacency matrix</b> is produced, where each head has possible dependents, and a <b>label
+            matrix</b> where each word has possible dependency labels. <br>
+            8. Two <b>CE Loss Functions</b> are then minimized, in order for successful training. <br>
+            9. This model is integrated in the Graph-Based parsing context, and again the <b>MST</b> is employed.
+
+        </p>
+
     </li>
-    <li>Grapheme-Phoneme Translator: <a style="font-size: 20px"
+    <li>Grapheme-Phoneme Translator: <a style="font-size: 30px"
                                         href="https://github.com/MarioKuzmanov/Machine-Translation">open project </a>
         <br>
         <img style="height:700px;width: 1200px; border: 10px solid cadetblue" src="../images/grapheme-phoneme.png"
              alt="grapheme_phoneme_translator">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p>
+            1. Website made with <b>streamlit</b>. <br>
+            2. Partial part of a <b>Grapheme to Phoneme</b> shared task. <br>
+            3. <b>Encoder-Decoder architecture, with LSTM units </b>: well-known approach for <b>Machine Translation</b>.
+            <br>
+            4. <b>Autoregressive generation with teacher forcing</b> to train the Decoder. <br>
+            5. You can see more about the <b>task</b>, the <b>model</b> and the <b>results</b> by running the website
+            locally. <br>
+            6. You can use the <b>Inference</b> area to see the model in action. NB: requires <b>cyrrilic characters</b>.
+
+        </p>
+
     </li>
     <li>Spell-Checker <br>
-        <p>Still in progress.</p>
         <img style="height:500px;width: 700px; border: 10px solid cadetblue" src="../images/spell_checker_progress.png"
              alt="spell_checker_inprogress">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p style="text-align: center"> Still in progress.</p>
     </li>
 </ul>
 
