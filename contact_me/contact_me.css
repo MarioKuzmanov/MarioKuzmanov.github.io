@@ -60,7 +60,7 @@ li {
     background-color: lightblue;
 }
 
-#work_education {
+#education_work {
     font-size: 20px;
     position: relative;
     bottom: -10%;
@@ -70,7 +70,7 @@ li {
     text-shadow: 1px 1px 2px black;
 }
 
-#work_education:hover {
+#education_work:hover {
     background-color: lightblue;
 }
 
