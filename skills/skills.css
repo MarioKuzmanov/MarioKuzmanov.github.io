@@ -1,239 +1,90 @@
 html {
     display: table;
     margin: auto;
-    background-color: lightblue;
+    background-color: white;
 }
 
 body {
-    display: table-cell;
     margin: auto;
+    display: table-cell;
+    background-color: lightblue;
+    border: 10px solid darkblue;
+    width: 100%;
+    height: 100%;
 }
 
-#all_skills {
-    column-count: 2;
-}
-
-li {
-    font-size: 35px;
-}
 
 #about_me {
-
     color: black;
     font-size: 50px;
     text-align: center;
     text-shadow: 3px 3px white;
+    margin-top: 0;
+    border: 3px solid darkblue;
 }
 
-#all_skills {
-    list-style-type: none;
-}
-
-h3 {
-    border-style: solid;
-    border-radius: 70%;
-    border-color: darkblue;
-    color: black;
-    font-size: 35px;
+.names {
+    font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px white;
 }
 
-
 .languages {
     list-style-type: none;
     font-size: 30px;
-    column-count: 2;
+    column-count: 1;
     line-height: 100px;
-    text-align: left;
+    text-align: center;
+    float: left;
 }
 
-.languages #python {
+.languages_names {
     color: green;
     text-shadow: 10px 5px 20px greenyellow;
 }
 
-.languages #java {
-    color: orange;
-    text-shadow: 10px 5px 20px darkorange;
-}
-
-.languages #r {
-    color: blue;
-    text-shadow: 10px 5px 20px darkblue;
-}
-
-.languages #html {
-    color: darkgoldenrod;
-    text-shadow: 10px 5px 20px yellow;
-}
-
-.languages #css {
-    color: mediumpurple;
-    text-shadow: 10px 5px 20px purple;
-}
-
-.languages #js {
-    color: yellow;
-    text-shadow: 10px 5px 30px darkgoldenrod;
-}
-
-.languages #regex {
-    color: hotpink;
-    text-shadow: 10px 5px 30px palevioletred;
-}
 
 .technologies {
     list-style-type: none;
     font-size: 30px;
     column-count: 2;
     line-height: 100px;
-    text-align: left;
+    text-align: center;
+    float: left;
 }
 
-.technologies #hfst\/xfst {
-    color: gray;
-    text-shadow: 10px 5px 30px grey;
-}
-
-.technologies #streamlit {
+.technologies_names {
     color: red;
     text-shadow: 10px 5px 30px #dc4646;
 }
-
-.technologies #tkinter {
-    color: #475fd2;
-    text-shadow: 10px 5px 30px #475fd2;
-}
-
-.technologies #pytorch {
-    color: rgba(173, 16, 16, 0.87);
-    text-shadow: 10px 5px 30px orangered;
-}
-
-.technologies #spacy {
-    color: blue;
-    text-shadow: 10px 5px 30px rgba(0, 196, 255, 0.76);
-}
-
-.technologies #pandas {
-    color: white;
-    text-shadow: 10px 5px 50px black;
-}
-
-.technologies #numpy {
-
-    text-align: center;
-    color: yellow;
-    text-shadow: 2px 2px grey;
-}
-
-.technologies #sympy {
-
-    border-radius: 80%;
-    text-shadow: 1px 1px #cc9d9d;
-    text-align: center;
-}
-
-.technologies #gensim {
-    text-align: center;
-    color: darkblue;
-    text-shadow: 1px 2px white;
-}
-
-.technologies #nltk {
-    text-align: center;
-    color: cadetblue;
-    text-shadow: 2px 2px lightcyan;
-}
-
-.technologies #scipy {
-
-    text-align: center;
-    color: #1f2626;
-    text-shadow: 1px 1px rgba(0, 196, 255, 0.76);
-}
-
-.technologies #scikit {
-    text-align: center;
-    color: orange;
-    text-shadow: 1px 1px #6868d9;
-}
-
 
 .others {
     list-style-type: none;
     font-size: 30px;
     column-count: 2;
     line-height: 100px;
-    text-align: left;
+    text-align: center;
+    float: left;
 }
 
-.others #github {
-    text-shadow: 1px 3px white;
-}
-
-.others #github_classroom {
-    color: black;
-    text-shadow: 2px 1px green;
-}
-
-.others #github_pages {
-    text-shadow: 1px 3px white;
-}
-
-.others #git {
-    color: rgba(173, 16, 16, 0.87);
-    text-shadow: 10px 5px 30px orangered;
-}
-
-.others #windows_linux {
-    color: blue;
-    text-shadow: 10px 5px 30px rgba(0, 196, 255, 0.76);
-}
-
-.others #markdown {
-    color: mediumpurple;
-    text-shadow: 10px 5px 20px purple;
-}
-
-.others #latex {
-    color: darkgoldenrod;
-    text-shadow: 10px 5px 20px yellow;
-}
-
-.others #praat {
+.others_names {
     color: blue;
     text-shadow: 10px 5px 30px rgba(13, 76, 94, 0.76);
 }
 
-.others #rapid {
-    color: rgba(245, 10, 10, 0.99);
-    text-shadow: 10px 5px 30px rgba(245, 10, 10, 0.99);
+.buttons {
+    text-align: center;
+    padding: 30px;
 }
 
-.others #annis {
-    color: white;
-    text-shadow: 10px 5px 50px black;
-}
-
-.others #figma {
-    color: hotpink;
-    text-shadow: 10px 5px 30px palevioletred;
-}
-
-.others #ms_office {
-    color: gray;
-    text-shadow: 10px 5px 30px grey;
-}
-
-#go_back {
+.btn {
+    border-radius: 70%;
     font-size: 30px;
-    padding-left: 50%;
-    padding-right: 50%;
-    background-color: lightblue;
+    padding: 25px 25px;
 }
 
-#go_back:hover {
+.btn:hover {
     background-color: darkblue;
+    transition-duration: 2s;
 }
+
