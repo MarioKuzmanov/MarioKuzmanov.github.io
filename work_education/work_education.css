@@ -14,7 +14,6 @@ body {
 }
 
 .split-left,
-
 .split-right {
     flex: 1;
     overflow: hidden;
@@ -88,6 +87,7 @@ p {
     text-align: left;
     font-size: 20px;
 }
+
 #work #current_job {
     font-size: 10px;
     text-shadow: 2px 2px 2px lightcoral;
