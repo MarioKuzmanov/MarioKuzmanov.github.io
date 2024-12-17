@@ -37,5 +37,6 @@ body {
 .btn:hover {
     background-color: cadetblue;
     transition-duration: 2s;
+    border-color: lightblue;
 }
 
