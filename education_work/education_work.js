@@ -1,9 +1,11 @@
 function onLoad() {
-    document.getElementById("go_back").addEventListener("click", function () {
-        document.getElementById("go_back").onclick = function () {
-            location.href = "../index.html";
-        }
-    })
+    let x = document.getElementsByClassName("btn")
+    x[0].addEventListener("click", function () {
+        location.href = "../index.html";
+    });
+    x[1].addEventListener("click", function () {
+        location.href = "../projects/projects.html";
+    });
 }
 
 window.addEventListener("load", onLoad);
