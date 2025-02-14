@@ -152,15 +152,41 @@
             5. You can see more about the <b>task</b>, the <b>model</b> and the <b>results</b> by running the website
             locally. <br>
             6. You can use the <b>Inference</b> area to see the model in action. NB: requires <b>cyrrilic characters</b>.
+        </p>
+    </li>
+    <li>Spell-Checker: built on FSTs <a style="font-size: 30px"
+                                        href="https://github.com/MarioKuzmanov/Spell-Checker">open project </a>
+        <br>
+        <div>
+            <p style="text-align: center;">Trie FSA (FST with identity transitions) </p>
+            <img style="margin-top:100px;height:500px;width: 1000px; border: 10px solid cadetblue"
+                 src="../images/example-lexicon-fsa-minimized.png"
+                 alt="trie-fsa-minimized">
+            <h3> .o. (composition) </h3>
+            <p style="text-align: center;">Edit FST </p>
+            <img style="height:500px;width: 500px; border: 10px solid cadetblue"
+                 src="../images/spell_checker_progress.png"
+                 alt="edt fst">
+
+        </div>
+        <h3> = </h3>
+        <img style="height:1000px;width: 700px; border: 10px solid cadetblue" src="../images/spellchecker_pipeline.png"
+             alt="spell-checker">
+        <p style="text-align: center;font-size: 35px">Description</p>
+        <p style="text-align: left">1.Weights learned from <b>WikiEdits</b> <br>
+            2.<b>Trie FST</b> of the lexicon with known words <br>
+            3.<b>Edit FST</b> allowing for at <b>insertion/deletion/replacement</b> of characters <br>
+            4.The edit FST generates all words at most one edit distance away from the input word <br>
+            5. <b>Composing</b> the two FSTs gives us the most common mistakes <br>
+            6. <b>Inverting</b> the composed FST is our <b>Spelling-Checker</b>, given a word it generates the most
+            probable suggestions.
 
         </p>
-
     </li>
-    <li>Spell-Checker <br>
-        <img style="height:500px;width: 700px; border: 10px solid cadetblue" src="../images/spell_checker_progress.png"
-             alt="spell_checker_inprogress">
-        <p style="text-align: center;font-size: 35px">Description</p>
-        <p style="text-align: center"> Still in progress.</p>
+
+    <li>Transition Based Parsing <br>
+        <p style="text-align: center"> In progress </p>
+
     </li>
 </ul>
 
